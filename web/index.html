@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1c2346" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./assets/pat-sticker.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Desktop Pets</title>
+  </head>
+  <body>
+    <main class="stage" aria-label="桌面宠物">
+      <div class="glow glow-left" aria-hidden="true"></div>
+      <div class="glow glow-right" aria-hidden="true"></div>
+
+      <header class="brand" aria-label="Desktop Pets">
+        <span class="eyebrow">DESKTOP PETS</span>
+        <h1>你的桌面小伙伴</h1>
+      </header>
+
+      <section class="pet-stage" aria-label="两只宠物">
+        <button class="pet pet-cat" type="button" aria-label="猫，点击摸摸头">
+          <img src="./assets/cat.png" alt="猫" draggable="false" />
+          <img class="pat-sticker" src="./assets/pat-sticker.png" alt="" aria-hidden="true" />
+        </button>
+        <button class="pet pet-budgie" type="button" aria-label="虎皮鹦鹉，点击摸摸头">
+          <img src="./assets/budgie.png" alt="虎皮鹦鹉" draggable="false" />
+          <img class="pat-sticker" src="./assets/pat-sticker.png" alt="" aria-hidden="true" />
+        </button>
+      </section>
+
+      <p class="hint">轻点小动物，摸摸头</p>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
