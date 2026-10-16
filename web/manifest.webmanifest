@@ -1,0 +1,12 @@
+{
+  "name": "Desktop Pets",
+  "short_name": "宠物桌面",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#12162d",
+  "theme_color": "#1c2346",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "./assets/pat-sticker.png", "sizes": "474x474", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
